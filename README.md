@@ -1,1 +1,3 @@
-# Framework
+Denizens of the Internet are coming under a barrage of phishing attacks of increasing frequency and sophistication. Emails accompanied by authentic looking websites are ensnaring users who, unwittingly, hand over their credentials compromising both their privacy and security. Methods such as the blacklisting of these phishing websites become untenable and cannot keep pace with the explosion of fake sites. Detection of nefarious websites must become automated and be able to adapt to this ever evolving form of social engineering. 
+
+We develop a framework, called "Fresh-Phish",  for creating current machine learning data for phishing websites. Using 30 different website features that we query using python, we build a large labeled dataset and analyze several machine learning classifiers against this dataset to determine which is the most accurate.  We analyze not just the accuracy of the technique, but also how long it takes to train the model.
